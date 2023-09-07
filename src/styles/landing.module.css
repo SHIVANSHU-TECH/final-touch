@@ -1,0 +1,48 @@
+.banner img {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+    z-index: -1;
+}
+
+
+
+.Navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+   background: transparent;
+   color: white;
+}
+
+.textBanner {
+    position: absolute;
+    
+    color: white;
+    top: 25rem;
+    /* text-align: center; */
+    left: 20rem;
+    font-size: 52px;
+    
+    font-weight: bolder;
+}
+@media screen and (max-width: 580px) {
+    .banner img {
+        display: block;
+        width:100%;
+    }
+    .textBanner {
+        position: absolute;
+        
+        color: white;
+        top: 25rem;
+        /* text-align: center; */
+        left: 7rem;
+        font-size: 32px;
+        
+        font-weight: bolder;
+    }
+    
+  }
